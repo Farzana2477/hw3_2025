@@ -97,8 +97,9 @@ first div in the grid  and place it in the grid. */
      display: block;
      place-items: center;
      text-align: center;
-     justify-content: center;
      align-items: center;
+     justify-content: center;
+     margin: auto;
 }
 
 /* Add your media query here */
@@ -115,7 +116,7 @@ first div in the grid  and place it in the grid. */
 
      .container {
      display: grid;
-     grid-template-columns: 50px, auto, 500px, auto, and  50px;
+     grid-template-columns: 50px auto 500px auto 50px;
      align-items: center;
      }
 
